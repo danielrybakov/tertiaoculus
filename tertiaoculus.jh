@@ -1,0 +1,12 @@
+
+
+
+entity Post {
+	imageUrl String required,
+    country String required,
+    city String required,
+    date Date required
+}
+
+// Set pagination options
+paginate * with infinite-scroll

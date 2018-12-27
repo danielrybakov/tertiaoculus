@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.danielrybakov.tertiaoculus",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "monolith",
+    "baseName": "tertiaoculus",
+    "packageName": "com.danielrybakov.tertiaoculus",
+    "packageFolder": "com/danielrybakov/tertiaoculus",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWNjNzg3ZGU4YjM5YzU5ODA1YjQ4YmQ3MDA5ZTU5ZDdhYzNhODYxMGE1ZjIxNzRiYjNmOGEwN2M5NjQxZTk3MzQ1ZGMyZDVkNjJhNDQxM2M5NTFmZDVkNzViMDgyNTA5NThkMzdhM2M4MzJmNWY3ZGFmZGFmZTliNzhmNzNlNTM=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": ["cucumber"],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "fr"]
+  }
+}
