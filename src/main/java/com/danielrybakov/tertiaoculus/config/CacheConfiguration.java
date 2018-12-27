@@ -41,6 +41,7 @@ public class CacheConfiguration {
             cm.createCache(com.danielrybakov.tertiaoculus.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.danielrybakov.tertiaoculus.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.danielrybakov.tertiaoculus.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.danielrybakov.tertiaoculus.domain.Post.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -5,7 +5,7 @@ entity Post {
 	imageUrl String required,
     country String required,
     city String required,
-    date Date required
+    date LocalDate required
 }
 
 // Set pagination options
